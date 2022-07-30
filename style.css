@@ -1,0 +1,226 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+@font-face {
+  font-family: blinker;
+  src: url(blinker-regular.ttf);
+}
+
+@font-face {
+  font-family: blinker;
+  src: url(blinker-bold.ttf);
+  font-weight: bold;
+}
+
+body {
+  font-family:blinker;
+  margin:0;
+}
+
+.header {
+  width:100%;
+  height:50em;
+  padding-top:0;
+}
+
+.head-left {
+  width:60%;
+  float:left;
+  background-color: #F6F6F6;
+  height:100%;
+}
+
+.head-right {
+  width:40%;
+  float:right;
+  background-color:#3D7298;
+  height:100%;
+}
+
+.left-head-content {
+  width:80%;
+  margin-left:14em;
+  padding-top:2em;
+}
+
+.name-top {
+  font-size:1.2em;
+}
+
+.salut {
+  margin-top:11em;
+  padding-right:7em;
+}
+
+.hello-txt {
+  font-size:4em;
+  line-height: 1em;
+}
+
+.who-i-am {
+  margin:0;
+  font-size:1.5em;
+  line-height: 1.9em;
+}
+
+.moi-description {
+  text-align:justify;
+}
+
+.buttons {
+  margin-top:2.5em;
+}
+
+.button-resume {
+  border-radius:50%;
+  height:12em;
+  width:12em;
+  background-color:#3D7298;
+  border-style: none;
+  color:white;
+  cursor:pointer;
+}
+
+.button-text {
+  font-size:1.6em;
+}
+
+.online-resume {
+  margin-left:3em;
+  background-color:#C0AF13;
+}
+
+.button-resume:hover {
+  background-color:#33668B;
+}
+
+.online-resume:hover {
+  background-color:#A99A12;
+}
+
+.foot {
+  margin-left:14em;
+  margin-right:14em;
+  border-width:1px;
+  border-color:grey;
+  border-style:solid;
+  border-bottom:none;
+  border-right:none;
+  border-left:none;
+  padding-top:2em;
+  height:13em;
+}
+
+.tel-div {
+  width:35%;
+  float:left;
+}
+
+.email-div {
+  width:30%;
+  float:left;
+}
+
+.linkedin-div {
+  width:35%;
+  float:right;
+}
+
+.smaller-div-tel {
+  text-align: center;
+}
+
+.smaller-div-email {
+  text-align:center;
+}
+
+.smaller-div-linkedin {
+  text-align:center;
+}
+
+.telephone {
+  font-size:.9em;
+}
+
+.email {
+  font-size:.9em;
+}
+
+.created-by {
+  font-size:.9em;
+  text-align:center;
+  margin-top:5em;
+}
+
+.pic-name {
+  text-align:center;
+  color:white;
+  margin-top:11.5em;
+}
+
+.name {
+  font-size:1.4em;
+}
+
+.status {
+  line-height: 1.2em;
+  font-size:1em;
+  padding-bottom:0;
+  margin-bottom:1em;
+}
+
+.my-img {
+  height:180px;
+  border-radius: 50%;
+  padding-bottom:1em;
+}
+
+.menu-laptop {
+  padding:2.6em 5em;
+  width:100%;
+  text-align:center;
+}
+
+.menu-item {
+  color:white;
+  text-decoration:none;
+  padding-top:0;
+  padding-bottom:0;
+  background-color: inherit;
+  border:none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  color:#3D7298 !important;
+}
+
+.blue-link {
+  color:#3D7298;
+}
+
+.blue-link:hover {
+  color:#1B5177;
+}
+
+@media screen and (max-width:700px) {
+
+  .tel-div {
+    width:100%;
+  }
+
+  .email-div {
+    width:100%;
+  }
+
+  .linkedin-div {
+    width:100%;
+    padding-top:1em;
+    padding-bottom:1em;
+  }
+
+  .foot {
+    height:22em;
+  }
+
+}
