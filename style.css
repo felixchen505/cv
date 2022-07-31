@@ -1,15 +1,6 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
-@font-face {
-  font-family: blinker;
-  src: url(../cv/blinker-regular.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: blinker;
-  src: url(../cv/blinker-bold.ttf) format('truetype');
-  font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&display=swap');
 
 body {
   font-family:blinker;
