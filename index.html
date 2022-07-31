@@ -7,10 +7,52 @@
   <title>Felix Chen</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="icon" type="image/x-icon" href="favicon.png">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
 </head>
 
 <body>
 <div class="header">
+  <nav class="navbar" id="app" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" v-on:click="showNav = !showNav" v-bind:class="{ 'is-active' : showNav }" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu" v-bind:class="{ 'is-active' : showNav }">
+      <div class="navbar-start">
+        <a class="navbar-item" href="#about">
+          À propos
+        </a>
+
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#cv">
+            CV
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="brebeufhx_fr.html">
+              BrébeufHx
+            </a>
+          </div>
+        </div>
+
+        <a class="navbar-item" href="#contact">
+          Contact
+        </a>
+
+        <a class="navbar-item" href="home.html">
+          English
+        </a>
+      </div>
+    </div>
+  </nav>
   <div class="head-right">
     <div class="menu-laptop">
       <div class="columns width-to-content">
@@ -31,7 +73,7 @@
           <div class="dropdown-menu" id="dropdown-menu4" role="menu">
             <div class="dropdown-content">
               <div class="dropdown-item">
-                <a class="navbar-item">
+                <a class="navbar-item" href="brebeufhx_fr.html">
                   BrébeufHx
                 </a>
               </div>
@@ -65,12 +107,12 @@
           Je suis un étudiant en droit qui vise à devenir un avocat mandataire en brevets. Je m'intéresse à l'innovation en ingénierie, à la programmation, à la santé et au sport. J'organise également des événements, tels que BrébeufHx, TEDxMontréal, la conférence Canada-Afrique sur l'investissement, TEDxPolytechnique et PolyHx.
         </p>
         <div class="buttons">
-          <a href="#">
+          <a href="#cv">
             <button class="button-resume">
               <b class="button-text">CV en ligne</b>
             </button>
           </a>
-          <a href="#">
+          <a href="CV_FR.pdf">
             <button class="button-resume online-resume">
               <b class="button-text">CV PDF</b>
             </button>
@@ -216,7 +258,7 @@
         <li>Habileté à travailler avec plusieurs budgets - 1500$ à 10 100$.</li>
         <li>Création de matériel de formation pour les événements, prospectus et documents de flux de processus opérationnels de l'événement.</li>
       </ul>
-      <a href="#" class="blue-link"><u>En apprendre plus</u></a>
+      <a href="brebeufhx_fr.html" class="blue-link"><u>En apprendre plus</u></a>
     </div>
   </div>
   <div class="cv-item">
@@ -441,6 +483,15 @@
     <p class="mb-0">Site web codé par Felix Chen par HTML/CSS</p>
     <a class="blue-link" href="https://github.com/felixchen505/cv.git">Voir le code du site web</a>
   </div>
+  <script type="text/javascript">
+
+  new Vue({
+    el: '#app',
+    data: {
+      showNav: false
+    }
+  });
+  </script>
 </div>
 </body>
 </html>

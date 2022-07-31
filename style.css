@@ -13,6 +13,10 @@ body {
   padding-top:0;
 }
 
+.navbar {
+  display: none;
+}
+
 .head-left {
   width:60%;
   float:left;
@@ -323,12 +327,21 @@ li {
 
 @media screen and (max-width:700px) {
 
+  .navbar {
+    display: block;
+  }
+
   .tel-div {
     width:100%;
   }
 
   .email-div {
     width:100%;
+    padding-top:1em;
+  }
+
+  .cv {
+    margin:2em 2em;
   }
 
   .linkedin-div {
@@ -337,8 +350,74 @@ li {
     padding-bottom:1em;
   }
 
+  .tel-div {
+    width:100%;
+  }
+
+  .email-div {
+    width:100%;
+  }
+
   .foot {
-    height:22em;
+    height:18em;
+    margin: 2em 2em;
+  }
+
+  .menu-laptop {
+    display: none;
+  }
+
+  .name-top {
+    display:none;
+  }
+
+  .head-right {
+    width:100%;
+  }
+
+  .head-left {
+    width:100%;
+  }
+
+  .left-head-content {
+    margin-left:2em;
+  }
+
+  .salut {
+    margin-top:0;
+    padding:0;
+  }
+
+  .pic-name {
+    margin-top:3em;
+  }
+
+  .head-right {
+    height:25em;
+  }
+
+  .head-left {
+    height:33em;
+  }
+
+  .cv-title {
+    margin-top:1em;
+  }
+
+  .header {
+    height:61.25em;
+  }
+
+  .description-container {
+    margin:2em 2em;
+  }
+
+  .sec-head-txt-container {
+    left:2em;
+  }
+
+  .home-btn {
+    margin-left:0;
   }
 
 }
