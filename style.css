@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: blinker;
-  src: url(blinker-regular.ttf) format('truetype');
+  src: url(../cv/blinker-regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: blinker;
-  src: url(blinker-bold.ttf) format('truetype');
+  src: url(../cv/blinker-bold.ttf) format('truetype');
   font-weight: bold;
 }
 
