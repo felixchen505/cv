@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: blinker;
-  src: url(blinker-regular.ttf);
+  src: url(blinker-regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: blinker;
-  src: url(blinker-bold.ttf);
+  src: url(blinker-bold.ttf) format('truetype');
   font-weight: bold;
 }
 
@@ -107,7 +107,7 @@ body {
   border-right:none;
   border-left:none;
   padding-top:2em;
-  height:13em;
+  height:11em;
 }
 
 .tel-div {
@@ -191,6 +191,10 @@ body {
   cursor: pointer;
 }
 
+.menu-item:hover {
+  color:#F1F1F1;
+}
+
 .navbar-item:hover {
   color:#3D7298 !important;
 }
@@ -256,6 +260,74 @@ body {
 
 .grey-link {
   color:#4E4E4E;
+}
+
+.sec-head-img {
+  object-fit: cover;
+  height:48em;
+  width:100%:
+}
+
+.sec-head-txt-container {
+  position: absolute;
+  top:2em;
+  left:14em;
+  width:100%;
+  color:white;
+}
+
+.sec-head-title {
+  font-size:4em;
+  margin-top:3.8em;
+}
+
+.sec-head-description {
+  font-size: 1.3em;
+  color:#C0AF13;
+}
+
+.home-btn {
+  font-size: 1.2em;
+  margin-left:1em;
+  color:white;
+  text-decoration: none;
+}
+
+.home-btn:hover {
+  color:#F1F1F1;
+}
+
+.sec-txt {
+  font-size: 1.2em;
+}
+
+.event-year {
+  font-size:2em;
+}
+
+.blue-txt {
+  color:#3D7298;
+}
+
+.no-padding {
+  padding:0;
+}
+
+.no-margin-lr {
+  margin-left:0 !important;
+  margin-right:0 !important;
+}
+
+.description-container {
+  margin:2em 11.7em;
+}
+
+li {
+  text-align:justify;
+}
+
+.justify {
+  text-align: justify;
 }
 
 @media screen and (max-width:700px) {
