@@ -331,6 +331,15 @@ li {
   text-align: justify;
 }
 
+.blue-sec-container {
+  background-color:#3D7298;
+  height:48em;
+}
+
+.portfolio {
+  width:100%;
+}
+
 @media screen and (max-width:700px) {
 
   .navbar {
