@@ -170,9 +170,9 @@ body {
 }
 
 .my-img {
-  height:180px;
+  height:160px;
   border-radius: 50%;
-  padding-bottom:1em;
+  margin-bottom:1em;
 }
 
 .menu-laptop {
