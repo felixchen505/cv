@@ -340,6 +340,14 @@ li {
   width:100%;
 }
 
+.sec-color-yellow {
+  color:#fff200 !important;
+}
+
+.r-col-pad{
+  padding-right:3em;
+}
+
 @media screen and (max-width:700px) {
 
   .navbar {
@@ -433,6 +441,10 @@ li {
 
   .home-btn {
     margin-left:0;
+  }
+
+  .r-col-pad{
+    padding-right:0;
   }
 
 }
